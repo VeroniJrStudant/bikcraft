@@ -29,19 +29,15 @@
 
 .contato-endereco {
   margin-bottom: 32px;
-  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
   padding-left: 28px;
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
 }
 
-.contato-maios a:first-child(2) {
-  margin-bottom: 32px;
-}
-
-.contato-dados p {
+.contato-endereco p {
   margin-bottom: 8px;
 }
 
-.contato-dados a {
+.contato-meios a {
   display: block;
   max-width: max-content;
   margin-bottom: 8px;
@@ -56,7 +52,7 @@
   background: url("../../img/icones/email.svg") no-repeat 0px 2px;
 }
 
-.contato-maios a:first-child(2) {
+.contato-meios a:nth-child(2) {
   margin-bottom: 32px;
 }
 
@@ -95,7 +91,7 @@
   }
 
   .contato-redes {
-    background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
     margin-bottom: 12px;
+    background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
   }
 }
