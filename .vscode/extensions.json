@@ -34,6 +34,7 @@
     "vscjava.vscode-java-dependency",
     "ms-ceintl.vscode-language-pack-pt-br",
     "vscjava.vscode-maven",
-    "ecmel.vscode-html-css"
+    "ecmel.vscode-html-css",
+    "kisstkondoros.vscode-gutter-preview"
   ]
 }
