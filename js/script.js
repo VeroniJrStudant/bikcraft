@@ -40,6 +40,7 @@ const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
   const pergunta = event.currenttarget;
+
   console.log(pergunta);
 }
 
