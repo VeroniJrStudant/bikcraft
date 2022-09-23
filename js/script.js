@@ -33,3 +33,20 @@ function ativarProduto(parametro) {
 }
 
 parametros.forEach(ativarProduto);
+
+// PERGUNTAS FREQUENTE
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function ativarPergunta(event) {
+  const pergunta = event.currenttarget;
+  console.log(pergunta);
+}
+
+function eventosPerguntas(pergunta) {
+  console.log(pergunta);
+  pergunta.addEventListener("click", ativarPergunta);
+}
+perguntas.forEach(eventosPerguntas);
+
+console.log(perguntas);
